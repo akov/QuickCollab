@@ -1,0 +1,16 @@
+$def with (form, text)
+<script type="text/javascript" src="/static/jquery.js"></script>
+<script type="text/javascript" src="/static/diff_match_patch.js"></script>
+<script type="text/javascript" src="/static/codemirror/js/codemirror.js"></script>
+<script type="text/javascript" src="/static/qsclient.js"></script>
+
+<link href="static/main.css" rel="stylesheet" type="text/css" />
+
+$form.text_area.set_value(text)
+$:form.render()
+<!---<input id="push_button" type="submit" value="Push changes"/>
+<form method="link" action="download">
+  <input id="save_button" type="submit" value="Save text locally"/>
+</form>
+
+
